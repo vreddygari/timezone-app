@@ -34,7 +34,7 @@
 				<cloudHubDeployment>
 				<username>vreddygari02</username>
 				<password>Reddy_123</password>
-				<environment>SANDBOX</environment>
+				<environment>Sandbox</environment>
 				<muleVersion>4.2.0</muleVersion>
 				<workers>1</workers>
 				<workerType>Micro</workerType>
