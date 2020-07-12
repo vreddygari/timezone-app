@@ -39,6 +39,7 @@
 				<workers>1</workers>
 				<workerType>Micro</workerType>
 				<applicationName>timezone-app</applicationName>
+				<objectStoreV2>true</objectStoreV2>
 				</cloudHubDeployment>
 				</configuration>
 			</plugin>
