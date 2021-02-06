@@ -13,6 +13,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<flow name="timezone-appFlow" doc:id="b2b62c59-d754-49bd-8a33-32c6e9d7af21" >
 		<http:listener doc:name="Listener" doc:id="cdddc01a-0d19-42a7-8f1f-267eed356ef9" config-ref="HTTP_Listener_config" path="/{region}/{city}"/>
 		<logger level="INFO" doc:name="Logger" doc:id="d6dd28fe-bb88-4378-b5e0-8b401ed084b5" message="Message received withe region and city in URI"/>
+		<logger level="INFO" doc:name="Logger" doc:id="29139f75-06e3-4355-9e14-e2471377c194" message="new logger to etst"/>
 		<http:request method="GET" doc:name="Request" doc:id="b645b4f5-a2e0-4a09-896e-f6801588c7e0" config-ref="HTTP_Request_configuration" path="/{region}/{city}">
 			<http:uri-params ><![CDATA[#[output application/java
 ---
