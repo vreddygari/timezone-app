@@ -22,5 +22,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	"city" : attributes.uriParams.city
 }]]]></http:uri-params>
 		</http:request>
+		<logger level="INFO" doc:name="Logger" doc:id="6d0a907a-5d57-4a60-a040-28a9e0f536a6" message="Process Completed Successfully"/>
 	</flow>
 </mule>
